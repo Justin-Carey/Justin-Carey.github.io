@@ -14,5 +14,10 @@ header {
 .item {
   display: inline-block;
   border: 1px #d4d4d4 solid;
-  color: white;
+  border-radius: 5px;
+  color: #d4d4d4;
+  width: 25%;
+  margin: 3%;
+  text-align: center;
+  font-family: consolas;
 }
