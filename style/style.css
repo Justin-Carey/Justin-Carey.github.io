@@ -11,7 +11,8 @@ header {
   padding-left: 5%;
 }
 
-#item {
-  display:inline-block;
+.item {
+  display: inline-block;
   border: 1px #d4d4d4 solid;
+  color: white;
 }
