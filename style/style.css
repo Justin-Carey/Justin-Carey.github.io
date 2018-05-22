@@ -1,0 +1,10 @@
+body {
+  background-color: navy;
+}
+
+header {
+  color: white;
+  text-align: center;
+  font-size: 150%;
+  font-family: consolas;
+}
