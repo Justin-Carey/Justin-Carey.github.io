@@ -1,23 +1,14 @@
 body {
-  background-color: navy;
+  background-color: #3169c4;
 }
 
-header {
-  color: #d4d4d4;
-  text-align: left;
-  font-size: 200%;
-  font-family: consolas;
-  padding-top: 5%;
-  padding-left: 5%;
+.title {
+  color: white;
 }
 
-.item {
-  display: inline-block;
-  border: 1px #d4d4d4 solid;
+.footer {
+  padding: 3rem 1.5rem 4rem;
   border-radius: 5px;
-  color: #d4d4d4;
-  width: 25%;
-  margin: 3%;
-  text-align: center;
-  font-family: consolas;
+  border-color: black;
+
 }
