@@ -12,6 +12,7 @@
 
 .list {
   list-style-type: none;
+  padding-left: 0px;
 }
 
 .card {
@@ -19,8 +20,9 @@
   margin: 2px;
   background-color: #00449E;
   border: 1px solid lightgray;
+  max-width: 400px;
 }
 
-contentSecurityPolicy: {
-  'img-src': "'self' data:"
+li:hover {
+  background-color: gray;
 }
