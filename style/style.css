@@ -1,3 +1,15 @@
+.column {
+  float: left;
+}
+
+.left {
+  width: 45%;
+}
+
+.right {
+  width: 55%;
+}
+
 .content {
   background-color: #00449E;
   color: lightgray;
@@ -21,8 +33,10 @@
   background-color: #00449E;
   border: 1px solid lightgray;
   max-width: 400px;
+  transition: background-color 1s, color 1s;
 }
 
 li:hover {
-  background-color: gray;
+  background-color: lightgray;
+  color: #00449E;
 }
