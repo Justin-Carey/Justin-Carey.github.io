@@ -1,22 +1,20 @@
 
 $('#icbc').mouseenter(function(){
-  $('#desc').text("This project involved the usage of the xgboost library to create a model that predict whether or not someone will file an insurance claim based on their characteristics and past automotive history.");
+  $('#desc').text("This project involved the usage of the xgboost library to create a model to predict whether or not someone will file an insurance claim based on their characteristics and past automotive history.");
    $('#desc').show();
 });
 
 $('#icbc').mouseleave(function(){
-  $('#desc').text("");
-   $('#desc').hide();
+  $('#desc').text("I'm a software developer with a passion for clean, scalable code.")
 });
 
 $('#easymarkit').mouseenter(function(){
-  $('#desc').text("EasyMarkit wanted us to create a model that could predict whether or not someone would cancel an appintment based on their characteristics and past history.");
+  $('#desc').text("EasyMarkit wanted us to create a model that could predict whether or not someone would cancel an appointment based on their characteristics and past history.");
    $('#desc').show();
 });
 
 $('#easymarkit').mouseleave(function(){
-  $('#desc').text("");
-   $('#desc').hide();
+  $('#desc').text("I'm a software developer with a passion for clean, scalable code.");
 });
 
 $('#abalone').mouseenter(function(){
@@ -25,8 +23,7 @@ $('#abalone').mouseenter(function(){
 });
 
 $('#abalone').mouseleave(function(){
-  $('#desc').text("");
-   $('#desc').hide();
+  $('#desc').text("I'm a software developer with a passion for clean, scalable code.");
 });
 
 $('#spam').mouseenter(function(){
@@ -35,8 +32,7 @@ $('#spam').mouseenter(function(){
 });
 
 $('#spam').mouseleave(function(){
-  $('#desc').text("");
-   $('#desc').hide();
+  $('#desc').text("I'm a software developer with a passion for clean, scalable code.");
 });
 
 $('#hangman').mouseenter(function(){
@@ -45,6 +41,5 @@ $('#hangman').mouseenter(function(){
 });
 
 $('#hangman').mouseleave(function(){
-  $('#desc').text("");
-   $('#desc').hide();
+  $('#desc').text("I'm a software developer with a passion for clean, scalable code.");
 });

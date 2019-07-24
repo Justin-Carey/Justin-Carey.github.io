@@ -14,7 +14,9 @@
 .content {
   background-color: #00449E;
   color: lightgray;
-  font-family: "system-ui";
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
   margin-top: 15px;
 }
 
@@ -48,7 +50,6 @@
 
 .card {
   padding: 16px;
-  margin: 2px;
   background-color: #00449E;
   border: 1px solid lightgray;
   max-width: 400px;
@@ -84,4 +85,11 @@ p {
 
 #desc {
   padding: 20px;
+  transition: color 1s;
+  font-size: 24px;
+}
+
+i {
+  font-size: 35px;
+  margin: 2px;
 }
