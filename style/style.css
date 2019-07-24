@@ -67,3 +67,13 @@ ion-icon {
 #name {
   font-size: 35px;
 }
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 5px;
+}
+
+p {
+  margin: 4px;
+}
