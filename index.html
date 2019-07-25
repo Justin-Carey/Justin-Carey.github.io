@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="content">
+<html lang="en" class="content fade-in">
 <head>
   <title>Justin Carey</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,10 +16,10 @@
           </div>
          </div>
          <div class="social right">
-             <ion-icon name="logo-github"></ion-icon>
-             <ion-icon name="logo-linkedin"></ion-icon>
-             <ion-icon name="mail"></ion-icon>
-             <ion-icon name="document"></ion-icon>
+             <ion-icon name="logo-github" id="github" onclick="window.open('https://github.com/Justin-Carey','mywindow');" style="cursor: pointer;"></ion-icon>
+             <ion-icon name="logo-linkedin" id="linkedin" onclick="window.open('https://www.linkedin.com/in/justin-carey','mywindow');" style="cursor: pointer;"/></ion-icon>
+             <ion-icon name="mail" id="mail"></ion-icon>
+             <ion-icon name="document" id="resume" href="#" onclick="window.open('Justin-Carey.github.io\\images\\carey_justin_resume.pdf', '_blank', 'fullscreen=yes'); return false;" style="cursor: pointer;"></ion-icon>
          </div>
          <div class="clear"></div>
       </div>
@@ -34,18 +34,19 @@
         <div class="left">
           <h2> Work: </h2>
           <ul class="list">
-            <li class="card" id="icbc"> Insurance Rate Prediction for ICBC</li>
+            <li class="card" id="icbc" onclick="window.open('https://github.com/Justin-Carey/Insurance_Prediction_Model_XGBoost','mywindow');" style="cursor: pointer;"> Insurance Rate Prediction for ICBC</li>
             <li class="card" id="easymarkit"> Client Appointment Prediction for EasyMarkit </li>
-            <li class="card" id="abalone"> Evaluation Function for an Abalone Playing A.I. </li>
-            <li class="card" id="spam"> Spam Filter Demo </li>
-            <li class="card" id="hangman"> Hangman in JavaScript and AWS </li>
+            <li class="card" id="abalone" onclick="window.open('https://github.com/Justin-Carey/Abalone_AI_Evaluation_Function','mywindow');" style="cursor: pointer;"> Evaluation Function for an Abalone Playing A.I. </li>
+            <li class="card" id="spam" onclick="window.open('https://github.com/Justin-Carey/spam_filter_demo','mywindow');" style="cursor: pointer;"> Spam Filter Demo </li>
+            <li class="card" id="hangman" onclick="window.open('https://github.com/Justin-Carey/hangman_game_aws','mywindow');" style="cursor: pointer;"> Hangman in JavaScript and AWS </li>
+            <li class="card" id="bamboo"> BambooShoot </li>
           </ul>
         </div>
         <div class="right">
           <br>
           <br>
           <div id="desc">
-            <p> I'm a software developer with a passion for clean, scalable code. </p>
+            I'm a software developer with a passion for clean, scalable code.
           </div>
         </div>
         <div class="clear"></div>
@@ -54,26 +55,26 @@
     <div class="row main">
       <div class="left">
         <h2> Tech: </h2>
-        <i class="devicon-python-plain"></i>
+        <i class="devicon-python-plain-wordmark"></i>
         <i class="devicon-javascript-plain"></i>
-        <i class="devicon-vuejs-plain"></i>
-        <i class="devicon-nodejs-plain"></i>
-        <i class="devicon-java-plain"></i>
-        <i class="devicon-c-plain"></i>
-        <i class="devicon-cplusplus-plain"></i>
-        <i class="devicon-mysql-plain"></i>
+        <i class="devicon-vuejs-plain-wordmark"></i>
+        <i class="devicon-java-plain-wordmark"></i>
+        <i class="devicon-c-plain-wordmark"></i>
+        <i class="devicon-cplusplus-plain-wordmark"></i>
+        <i class="devicon-mysql-plain-wordmark"></i>
         <i class="devicon-amazonwebservices-plain-wordmark"></i>
-        <i class="devicon-git-plain"></i>
+        <i class="devicon-git-plain-wordmark"></i>
+        <i class="devicon-nodejs-plain-wordmark"></i>
     </div>
-    <div class="right">
-      <!-- <h2> Posts: </h2> -->
+    <div class="right top-space">
+      <h2> In progress: </h2>
+      <p> I'm currently working on a repository for storing recipes, built in Vue.js. Stay tuned. <p>
     </div>
     <div class="clear"></div>
   </div>
 
     <div class="row bottom">
-      <p>Justin Carey ©</p>
-      <p>All Rights Reserved 2019</p>
+      <p>Justin Carey © All Rights Reserved 2019</p>
     </div>
 
     <script src="Justin-Carey.github.io\scripts\script.js"></script>

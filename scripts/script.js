@@ -43,3 +43,48 @@ $('#hangman').mouseenter(function(){
 $('#hangman').mouseleave(function(){
   $('#desc').text("I'm a software developer with a passion for clean, scalable code.");
 });
+
+$('#bamboo').mouseenter(function(){
+  $('#desc').text("A group of friends and I created a repository to hold and organize resume based information.");
+   $('#desc').show();
+});
+
+$('#bamboo').mouseleave(function(){
+  $('#desc').text("I'm a software developer with a passion for clean, scalable code.");
+});
+
+$('#github').mouseenter(function(){
+  $('#desc').text("My Github.");
+   $('#desc').show();
+});
+
+$('#github').mouseleave(function(){
+  $('#desc').text("I'm a software developer with a passion for clean, scalable code.");
+});
+
+$('#linkedin').mouseenter(function(){
+  $('#desc').text("My LinkedIn.");
+   $('#desc').show();
+});
+
+$('#linkedin').mouseleave(function(){
+  $('#desc').text("I'm a software developer with a passion for clean, scalable code.");
+});
+
+$('#mail').mouseenter(function(){
+  $('#desc').text("Email me.");
+   $('#desc').show();
+});
+
+$('#mail').mouseleave(function(){
+  $('#desc').text("I'm a software developer with a passion for clean, scalable code.");
+});
+
+$('#resume').mouseenter(function(){
+  $('#desc').text("My resume.");
+   $('#desc').show();
+});
+
+$('#resume').mouseleave(function(){
+  $('#desc').text("I'm a software developer with a passion for clean, scalable code.");
+});
