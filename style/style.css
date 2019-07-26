@@ -12,7 +12,7 @@
 }
 
 .content {
-  background-color: #00449E;
+  background-color: #36558F;
   color: lightgray;
   /*font-family: 'Open Sans', sans-serif;*/
   font-family: 'Raleway', sans-serif;
@@ -50,8 +50,9 @@
 
 .card {
   padding: 16px;
-  background-color: #00449E;
   border: 1px solid lightgray;
+  background-color: #36558F;
+  border-radius: 3px;
   max-width: 400px;
   transition: background-color 1s, color 1s;
 }
