@@ -89,7 +89,7 @@ p {
 
 #desc {
   padding-left: 22px;
-  padding-top: 22px;
+  padding-top: 23px;
   font-size: 24px;
 }
 
@@ -124,6 +124,6 @@ i {
        width: 90%;
      },
      #desc {
-        font-size: 24px;
+        font-size: 20px;
      }
 }
