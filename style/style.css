@@ -88,7 +88,8 @@ p {
 }
 
 #desc {
-  padding: 22px;
+  padding-left: 22px;
+  padding-top: 22px;
   font-size: 24px;
 }
 
@@ -121,5 +122,8 @@ i {
 @media only screen and (max-device-width: 600px) {
      .main, .row, #header, #line {
        width: 90%;
+     },
+     #desc {
+        font-size: 24px;
      }
 }
