@@ -119,7 +119,7 @@ i {
 }
 
 @media only screen and (max-device-width: 600px) {
-     .main .row #header {
+     .main, .row, #header {
        width: 90%;
      }
 }
