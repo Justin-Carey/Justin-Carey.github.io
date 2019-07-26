@@ -120,6 +120,6 @@ i {
 
 @media only screen and (max-device-width: 600px) {
      .main {
-       width: 90%;
+       width: 100%;
      }
 }
