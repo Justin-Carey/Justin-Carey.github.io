@@ -88,3 +88,8 @@ $('#resume').mouseenter(function(){
 $('#resume').mouseleave(function(){
   $('#desc').text("I'm a software developer with a passion for clean, scalable code.");
 });
+
+function sendEmail()
+{
+    window.location = "mailto:justinthomascarey@gmail.com";
+}
