@@ -85,6 +85,13 @@ p {
   animation-duration: 2s;
 }
 
+.fade-in2 {
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 8s;
+}
+
 @keyframes fadeInOpacity {
   0% {
     opacity: 0;
@@ -94,8 +101,14 @@ p {
   }
 }
 i {
-  font-size: 45px;
+  font-size: 35px;
   margin: 4px;
+  padding-top: 7px;
+}
+
+.cust {
+  font-size: 50px;
+  padding-top: 0px;
 }
 
 .top-space {
