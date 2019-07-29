@@ -64,9 +64,9 @@ ion-icon:hover {
 }
 
 .bottom {
-  position: absolute;
   bottom: 0;
   height: 60px;
+  margin-top: 80px;
   text-align: center;
 }
 
@@ -91,7 +91,6 @@ p {
   animation-timing-function: ease-in;
   animation-duration: 8s;
 }
-
 @keyframes fadeInOpacity {
   0% {
     opacity: 0;
@@ -104,20 +103,27 @@ p {
 
 i {
   font-size: 35px;
-  margin: 4px;
+  margin-left: 12px;
+  margin-right: 12px;
   padding-top: 7px;
+  transition: transform 1s, color 1s;
 }
+
+i:hover {
+  transform: scale(2);
+  color: #E8AA14;
+}
+
 
 .cust {
   font-size: 50px;
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .top-space {
   padding-top: 2px;
   padding-left: 16px;
 }
-
 @media only screen and (max-device-width: 600px) {
   .flex-wrapper {
     width: 90%;
@@ -137,9 +143,11 @@ circle {
   animation-name: preloader;
   animation-duration: 17s;
   animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
   transform-origin: 170px 170px;
   will-change: transform;
+  transition: stroke .5s, stroke-width .5s, stroke-dasharray 1s;
 
   &:nth-of-type(1) {
     stroke-dasharray: 500px;
@@ -158,12 +166,22 @@ circle {
   }
   @for $i from 1 through 4 {
     &:nth-of-type(#{$i}) {
-      animation-delay: -#{$i * 1}s;
+      animation-delay: -#{$i * 6}s;
     }
   }
 }
+
+.loader:hover {
+  circle {
+    stroke: #E8AA14;
+    stroke-width: 8;
+    stroke-dasharray: 1100px;
+
+  }
+}
+
 @keyframes preloader {
-  50% {
+  100% {
     transform: rotate(360deg);
   }
 }
