@@ -11,6 +11,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  margin-top: 10px;
 }
 
 .column {
@@ -51,6 +52,9 @@ body {
   background-color: #E8AA14;
   color: #23395B;
 }
+.card:hover circle {
+  animation-name: fadeOutOpacity;
+}
 
 ion-icon {
   font-size: 35px;
@@ -63,6 +67,11 @@ ion-icon:hover {
   color: #E8AA14;
 }
 
+svg {
+  width: 100%;
+  height: 100%;
+}
+
 .bottom {
   bottom: 0;
   height: 60px;
@@ -72,6 +81,11 @@ ion-icon:hover {
 
 p {
   font-size: 18px;
+}
+
+#desc {
+  font-size: 24px;
+  display: none;
 }
 
 .social {
@@ -92,12 +106,27 @@ p {
   animation-duration: 8s;
 }
 
+.fade-out {
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 8s;
+}
+
 @keyframes fadeInOpacity {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
+  }
+}
+@keyframes fadeOutOpacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 i {
