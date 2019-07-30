@@ -51,10 +51,6 @@ body {
 .card:hover {
   background-color: #E8AA14;
   color: #23395B;
-
-    circle {
-      animation-name: fadeOutOpacity;
-    }
 }
 
 ion-icon {
@@ -104,15 +100,9 @@ p {
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 8s;
+  animation-duration: 4s;
 }
 
-.fade-out {
-  animation-name: fadeInOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-  animation-duration: 8s;
-}
 @keyframes fadeInOpacity {
   0% {
     opacity: 0;
@@ -120,16 +110,6 @@ p {
 
   100% {
     opacity: 1;
-  }
-}
-
-@keyframes fadeOutOpacity {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
   }
 }
 
