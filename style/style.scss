@@ -34,7 +34,7 @@ body {
 }
 
 #line {
-  border-bottom: 3px solid #FB1F1F;
+  border-bottom: 3px solid #FF851B;
   display: block;
   width: 100%;
   padding: 5px;
@@ -42,14 +42,14 @@ body {
 
 .card {
   padding: 16px;
-  border: 1px solid #FB1F1F;
+  border: 1px solid #FF851B;
   border-radius: 3px;
   width: 80%;
   transition: background-color 1s, color 1s;
 }
 
 .card:hover {
-  background-color: #FB1F1F;
+  background-color: #FF851B;
   .triangle {
     stroke: white;
     stroke-width: 0;
@@ -64,7 +64,7 @@ ion-icon {
 }
 
 ion-icon:hover {
-  color: #FB1F1F;
+  color: #FF851B;
 }
 
 svg {
@@ -125,7 +125,7 @@ i {
 
 i:hover {
   transform: scale(2);
-  color: #FB1F1F;
+  color: #FF851B;
 }
 
 .cust {
@@ -186,7 +186,7 @@ circle {
 
 .loader:hover {
   circle {
-    stroke: #FB1F1F;
+    stroke: #FF851B;
     stroke-width: 8;
     stroke-dasharray: 1100px;
   }
@@ -207,7 +207,7 @@ circle {
   animation-fill-mode: forwards;
   animation-duration: 10s;
   will-change: transform;
-  transform-origin: 50px 63.67px;
+  transform-origin: 170px 183.67px;
 
   transition: all 0.8s ease-in-out;
 }

@@ -1,5 +1,5 @@
 
-$('#icbc').mouseenter(function(){
+$('#icbc').hover(function(){
   $('#desc').text("This project involved the usage of the xgboost library to create a model to predict whether or not someone will file an insurance claim based on their characteristics and past automotive history.");
   $('.loader').hide();
    $('#desc').show();
